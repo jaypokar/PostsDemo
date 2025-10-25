@@ -30,10 +30,6 @@ A Flutter social media application with real-time posting, Firebase authenticati
 - Firebase Auth for authentication
 - Cloud Functions for server-side logic (optional)
 
-## Screenshots
-
-[Add screenshots of your app here]
-
 ## Getting Started
 
 ### Prerequisites
@@ -89,25 +85,7 @@ service cloud.firestore {
 
 ### Installation
 
-1. **Clone the repository**
-```bash
-git clone <your-repo-url>
-cd post_task
-```
 
-2. **Install dependencies**
-```bash
-flutter pub get
-```
-
-3. **Configure Firebase**
-   - Replace the placeholder values in `lib/firebase_options.dart` with your actual Firebase configuration
-   - Or run `flutterfire configure` to auto-generate the file
-
-4. **Run the app**
-```bash
-flutter run
-```
 
 ## Project Structure
 
@@ -185,7 +163,7 @@ service cloud.firestore {
 }
 ```
 
-## Cloud Functions (Optional)
+## Cloud Functions
 
 The project includes Cloud Functions for server-side logic:
 
@@ -215,30 +193,4 @@ flutter build apk --release
 # or
 flutter build appbundle --release
 ```
-
-### iOS
-```bash
-flutter build ios --release
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-If you encounter any issues or have questions, please create an issue in the repository.
-
----
-
-**Note**: This is a demo application built for interview purposes. Make sure to configure your own Firebase project and update the configuration files accordingly.
-
 
